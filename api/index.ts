@@ -2,5 +2,5 @@
 
 export default () => new Response(`
 - Deno v${Deno.version.deno} 
-- Location is ${window.location.href}!
+- Location is ${window.location?.href}!
 `);
