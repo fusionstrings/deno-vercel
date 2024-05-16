@@ -1,12 +1,12 @@
 {
-	"functions": {
-		"api/**/*.[jt]s": { "runtime": "vercel-deno@3.1.0" },
-	},
-    "routes": [
-        {
-          "src": "/",
-          "dest": "/api/index.js",
-          "methods": ["GET"]
-        }
-      ]
+  "functions": {
+    "api/**/*.[jt]s": { "runtime": "vercel-deno@3.1.0" }
+  },
+  "routes": [
+    {
+      "src": "/",
+      "dest": "/api/index.js",
+      "methods": ["GET"]
+    }
+  ]
 }
